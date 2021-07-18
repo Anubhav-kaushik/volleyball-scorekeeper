@@ -1,0 +1,88 @@
+.container {
+    width: 40%;
+    margin: 0 auto;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+    background-color: rgb(255, 223, 200);
+    max-width: 350px;
+}
+
+.container img {
+    width: 100%;
+}
+
+.container h1 {
+    font-size: 1rem;
+    margin-bottom: 0;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 0.5em;
+}
+
+.container h2 {
+    font-size: 2rem;
+    margin: 0.2em auto;
+}
+
+.container p {
+    font-size: 1rem;
+    margin: 0.2em auto;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    border: 1px solid #ccc;
+    font-size: 0.9rem;
+    color: #fff;
+    transition: all 0.2s;
+}
+
+.btn-one {
+    background-color: orange;
+    border-color: orange;
+}
+
+.one:hover {
+    background-color: transparent;
+    color: orange;
+}
+
+.btn-two {
+    background-color: blue;
+    border-color: blue;
+}
+
+.two:hover {
+    background-color: transparent;
+    color: blue;
+}
+
+.btn-reset {
+    background-color: red;
+    border-color: red;
+}
+
+.btn-reset:hover {
+    background-color: transparent;
+    color: red;
+}
+
+.btn:disabled {
+    opacity: 0.3;
+}
+
+input[type="number"] {
+    width: 4em;
+    background-color: white;
+    color: rebeccapurple;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+    padding: 0.25em 0.5em;
+    margin: 0 0.5em;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volleyball ScoreKeeper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://wallpapersdsc.net/wp-content/uploads/2017/02/Volleyball-Widescreen-.jpg" alt="volleyball">
+        <h1>ScoreKeeper</h1>
+        <h2>
+            <span id="playerOneScore">0</span>
+            to
+            <span id="playerTwoScore">0</span>
+        </h2>
+        <p>Use the below buttons to update the score</p>
+        <h3>Playing upto <span>
+            <input type="number" name="num" id="maxScore">
+    </span></h3>
+        <div class="btn-container">
+            <button id="btn-playerOne" class="btn btn-one one">+1 Player One</button>
+            <button id="btn-reset" class="btn btn-reset">Reset</button>
+            <button id="btn-playerTwo" class="btn btn-two two">+1 Player Two</button>
+        </div>
+    </div>
+
+    <script src="action.js"></script>
+</body>
+</html>
